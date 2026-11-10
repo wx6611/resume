@@ -1,59 +1,122 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>梁文馨｜AI 产品经理 | 产品策略 — AI 应用与智能硬件前端</title><style>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>梁文馨｜AI 产品经理（AI 工具/效率方向）</title><style>
 * { box-sizing: border-box; }
 body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-weight: 300; font-size: 16px; line-height: 1.65; color: #111; margin: 0; background: #f5f5f4; }
 main { max-width: 860px; margin: 0 auto; background: #fff; padding: 48px 56px 56px; }
 strong { font-weight: 700; }
 a { color: #111; text-decoration: underline; text-underline-offset: 3px; }
-.head { display: flex; align-items: flex-start; flex-wrap: wrap; gap: 8px 28px; }
-h1 { font-size: 34px; font-weight: 700; margin: 0; line-height: 1.25; }
+.resume-header { display: grid; grid-template-columns: 1fr auto; align-items: start; gap: 8px 28px; }
+.name { font-size: 34px; font-weight: 700; line-height: 1.25; }
 .contact { font-size: 15px; line-height: 1.6; padding-top: 4px; }
-hr { border: none; border-top: 2px solid #111; margin: 14px 0 6px; }
-h2 { font-size: 22px; font-weight: 700; margin: 22px 0 6px; line-height: 1.3; }
-.job { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 2px 12px; font-weight: 700; font-size: 16.5px; margin: 14px 0 3px; }
-.job .date { white-space: nowrap; }
-.proj { font-weight: 700; margin: 12px 0 2px; }
+.contact a { color: #111; }
+h2 { font-size: 22px; font-weight: 700; border-bottom: 1.5px solid #111; padding-bottom: 4px; margin: 26px 0 8px; line-height: 1.3; }
+.experience-head { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 2px 12px; font-weight: 700; font-size: 16.5px; margin: 16px 0 4px; }
+.experience-head .time { white-space: nowrap; }
+.project-head { font-weight: 700; margin: 14px 0 3px; }
+.education-row { display: grid; grid-template-columns: 1fr 1fr auto; align-items: baseline; gap: 2px 12px; margin: 4px 0; }
+.education-row .time { white-space: nowrap; }
+.skills { font-size: 16px; line-height: 1.65; }
 p { margin: 0 0 6px; text-align: justify; }
-@media (max-width: 640px) { main { padding: 32px 22px 40px; } h1 { font-size: 28px; } }
+@media (max-width: 640px) { main { padding: 32px 22px 40px; } .name { font-size: 28px; } .resume-header { grid-template-columns: 1fr; } }
 @media print { body { background: #fff; } main { padding: 0; max-width: none; } }
-</style><!-- SYNC:2026-11-05 | sync-2026-11-05-product-pdf --></head><body><main><div class="head"><h1>梁文馨</h1><div class="contact">广东深圳｜AI 产品经理 | 产品策略 — AI 应用与智能硬件前端<br/>电话：13266899285　邮箱：wenshin66@outlook.com<br/>个人站：<a href="https://liangwx-portfolio.pages.dev">liangwx-portfolio.pages.dev</a></div></div><hr/>
-<p>8年研究型产品经验，擅长把模糊需求转化为可评审、可交付的产品定义，并以原型与评测标准验证方案。完整产品链：用户调研 → 需求定义 → 竞品 / 案例分析 → 场景定义 → 信息架构与原型 → 方案迭代 → 评审交付。AI 方向具备大模型评测任务设计（Rubric 与验收标准）与 3 个 0–1 可交互原型经验；产业方向主导及深度参与坪山、前湾、龙岗等复杂项目，成果通过评审并被后续采用。拳击 / 自由搏击训练背景，对智能运动硬件场景有第一手体感。</p>
-<p><strong>前端产品定义 · 用户研究 · 场景定义 · 评测标准 · 智能运动硬件方向优先</strong></p>
-<p><strong>用户研究与需求定义：</strong>现场调研、部门与企业访谈、驻场调研即用户调研；任务书、计划书与方案提纲即需求定义文档，形成目标、范围、成果形式与验收节点，并做需求分层与优先级排序。</p>
-<p><strong>竞品与场景：</strong>案例分析即竞品分析（定维度、选对标、拆差异、提炼可迁移结论）；基于资源、技术与业务约束定义场景组合、优先级与实施路径。</p>
-<p><strong>原型与迭代：</strong>规划图与方案图即原型表达（信息架构、产业链图谱、空间落位图、交互网页）；改方案即版本迭代，基于评审与现场反馈重构框架。</p>
-<p><strong>AI 与评测：</strong>Benchmark 任务设计、Rubric 与验收标准、参考解答、badcase 归因意识；以 AI 工具快速构建可交互原型。</p>
+</style><!-- SYNC:2026-11-10 | sync-2026-11-10-ai-tools-pdf --></head><body><main>
+<header class="resume-header">
+  <div class="name">梁文馨</div>
+  <div class="contact">
+    <div>广东深圳<span class="sep"></span>电话：13266899285<span class="sep"></span>求职意向：AI产品经理（AI工具/效率方向）</div>
+    <div>邮箱：<a href="mailto:liangwx66@gmail.com">liangwx66@gmail.com</a><span class="sep"></span>个人网站：<a href="https://liangwx-portfolio.pages.dev">liangwx-portfolio.pages.dev</a></div>
+  </div>
+</header>
+
+<section class="profile-summary">
+  <p>8年复杂业务研究与产品化经验，近年专注大模型驱动的AI工具产品，独立负责多款AI工具从0到1的需求定义、产品设计、交付与迭代，覆盖文档创作、知识管理、语言学习、产业数据等场景。具备大模型评测体系设计与专业场景出题经验，擅长问题诊断、框架重建、AI能力设计与跨职能协同，能够在需求模糊、推进受阻的项目中快速重建路径并推动落地。</p>
+  <p><strong>AI 产品设计：</strong>大模型应用场景定义、人机协同交互设计、Prompt 工程、RAG/Agent 功能设计、多模型能力选型与能力边界判断</p>
+  <p><strong>评测与质量保障：</strong>Benchmark 任务设计、Rubric 评分体系、边界案例规则、Badcase 分析闭环、模型效果评估与版本验证</p>
+  <p><strong>问题诊断与交付：</strong>模糊需求澄清、业务/数据框架重建、PRD 与信息架构、原型设计、敏捷迭代、跨职能协同（算法/研发/设计/数据）</p>
+  <p><strong>研究与决策支持：</strong>产业链与竞品研究、用户与数据分析、场景优先级判断、资源配置路径设计、面向决策层的汇报</p>
+</section>
+
 <h2>工作经历</h2>
-<div class="job"><span>主创规划师（市场研究与产品策划）｜广州山水比德设计股份有限公司</span><span class="date">2025/10–2026/04</span></div>
-<p><strong>用户调研：</strong>参与智慧城市方向的城市更新新业务前期研究，围绕地方资源、目标人群、消费需求与空间条件做市场研究与案例分析（即竞品分析），识别文旅产品、空间业态与体验场景的机会。</p>
-<p><strong>体验与产品组合：</strong>在武汉历史街区等项目中负责旅游产品与空间业态策划，把文化资源、市场需求与场地特征转化为产品组合、功能组织与体验场景建议。</p>
-<p><strong>跨职能协同与迭代：</strong>结合土地、规划、建筑与工程实施条件，协调不同专业调整方案，识别影响落地的关键约束，推动成果深化与交付。</p>
-<div class="job"><span>产业咨询师｜深圳市蕾奥规划设计咨询股份有限公司</span><span class="date">2023/10–2025/09</span></div>
-<p><strong>竞品与品类研究：</strong>独立完成电子显示、3D 打印、激光加工 3 项先进制造专题（行业、竞争格局与企业图谱）；企业项目「智慧文旅（微度假）」基于平台数据（底层处理由专业数据团队提供）做游客画像、消费趋势与竞品分析。</p>
-<p><strong>用户调研与原型 — 企业项目「智慧园区（坪山三大先进制造产业园，31.7 km²）」：</strong>驻场约 1 个月核对企业资料、梳理企业产业链定位；产业链图谱与空间落位图即信息架构与原型表达，输出产业定位、招商方向、企业及项目清单与落位指导清单。</p>
-<p><strong>方案迭代 — 智慧园区（坪山）：</strong>中期阶段成果未获认可后，驻场重整数据与研究框架、重构汇报逻辑并重新获得认可；成果最终通过评审，形成正式成果并用于后续招商与企业选址。</p>
-<p><strong>场景定义 — 前湾新能源（项目负责人）：</strong>结合新区用能特征、能源资源与空间承载条件及海创集团目标与既有业务（已有 9 个分布式光伏项目、合计 40 MW、6 个自有产业园），定义分布式光伏、储能、氢能、园区微电网、虚拟电厂、综合能源站 6 类场景、优先级、建设规模与实施路径，明确建议海创参与光伏业务；整合外部电力团队成果，方案为后续光储充项目提供前期支撑，后续项目设计容量约 5.8 MWp、预计年均发电量约 550 万 kWh（设计 / 预计值）。</p>
-<div class="job"><span>项目负责人｜深圳市龙岗区规划国土发展研究中心</span><span class="date">2021/05–2023/05</span></div>
-<p><strong>需求定义：</strong>主导编制任务书 — 即需求定义文档，把模糊委托转化为目标、范围、成果形式与验收节点，并按任务书全程执行；与区规划和自然资源部门驻场协作，组织企业访谈（即用户调研）获取诉求与反馈。</p>
-<p><strong>优先级排序与路线图 — 智慧城市产业空间保障：</strong>盘点约 78.9 km² 产业用地，以资源盘点做可行性评估与优先级筛选，形成 6 类空间保障路径、项目库与年度实施计划（即 Roadmap 与里程碑）。</p>
-<p><strong>方案迭代与交付：</strong>中期接手逻辑不清、推进困难的项目后重建框架、协调专业团队与主管科室；参与向规划和自然资源局局长汇报，成果用于区级决策并延展出土地出让库、用地提容等实施项目。龙岗段部分项目全程独立负责，带领 2–3 人团队。</p>
-<div class="job"><span>城市规划师｜深圳市城市规划设计研究院有限公司</span><span class="date">2018/07–2021/05</span></div>
-<p><strong>用户与行业研究、竞品分析：</strong>围绕产业、城市空间与创新办公场景做政策、案例与功能需求研究；智慧城市方向的城市更新研究覆盖 20 余个重点城市案例，以案例分析定比较维度、拆差异、提炼可迁移结论（即竞品分析）。</p>
-<p><strong>原型表达：</strong>以方案图、数据图谱与功能组织做原型表达 — 独角兽科技公司城市街坊独立提出空间策略与功能组织，获 2019 年光明科学城中心区城市设计国家竞赛咨询二等奖；太湖科学城独立完成长三角 / 苏州产业与创新要素数据筛查、归类与可视化，项目入围。</p>
-<p><strong>知识产品 — 智慧城市更新指引：</strong>搭建政策、实施流程、土地问题、历史街区保护更新四模块框架，基本独立完成历史街区保护更新手册，并向中建八局技术管理层汇报，提出保护为主、渐进式开发的策略判断；成果形成《城市更新实施决策与指引》（主编之一），由中国建筑工业出版社出版，本人承担其中 4 章。</p>
-<h2>AI 产品实践</h2>
-<div class="job"><span>AI 评测产品 — 大模型 Benchmark 任务设计</span><span class="date">2026/07–至今 · 项目制</span></div>
-<p><strong>AI数据平台 · AI数据领域专家</strong></p>
-<p>面向城市规划与咨询真实工作流设计评测任务，还原业务判断、约束与交付要求，解决模型表现难以量化评估的问题。负责产品定义：任务目标、输入条件、输出要求、评分维度（Rubric）、参考解答与通过 / 失败验收标准，交付完整任务包与评分规范；本人审校修订，模型调优与标注执行由平台 / 合作方承担。</p>
-<div class="proj">芯片产业链全景平台 — 0–1 交互产品｜2026 · 个人产品</div>
-<p>针对产业链环节多、信息分散、静态报告不便查询的问题，为产业与企业研究者设计按产业流程逐层展开的信息架构：上游支撑、芯片设计、晶圆制造、封装测试、终端应用，并建立环节与代表企业关联。实现节点点击、环节查看、企业查询与 AI GPU 专题等功能；全景展开、搜索定位、跨环节企业详情等主流程已通过功能测试。页面数据为静态示例。</p>
-<div class="proj">Unfurl 英语阅读与词汇学习工具 — 0–1 学习产品｜2026 · 个人产品</div>
-<p>针对背词重复低效、词汇学习与真实阅读脱节的问题，重新设计「快速筛词 — 重点学习 — 语境理解 — 复习记录」用户流程。功能包括快速筛选、单词解析（音标、词性、可切换中文释义、例句）、发音、学习记录与复习提醒；阅读、查词、标记 / 复习主流程已通过测试，基于自用场景持续迭代（单词本联动、难度匹配、i+1 阅读推荐）。AI 简化 / 释义 / 翻译功能待开放，数据保存在当前浏览器。</p>
-<div class="proj">简历编辑器 — 0–1 工具产品｜2026 · 个人产品</div>
-<p>6 个板块可编辑、拖拽组装、多版本保存、布局调整、预览及 PDF / Word 导出，自动保存与 JSON / ZIP 备份下载已通过测试；本地优先原型。</p>
-<h2>教育 · 出版与奖项 · 技能</h2>
-<p><strong>教育：</strong>城市规划硕士，大连理工大学（2015/09–2018/06）；城乡规划学士，湖南城市学院（2010/09–2015/06）</p>
-<p><strong>出版与奖项：</strong>《城市更新实施决策与指引》主编之一，中国建筑工业出版社；《城乡规划编制技术手册（第二版）》参与编写；光明科学城中心区城市设计国家竞赛咨询二等奖（2019）；中子科学城空间概念规划广东省优秀城乡规划设计三等奖（2018）</p>
-<p><strong>产品方法：</strong>用户调研 / 需求定义 / 竞品与案例分析 / 场景定义 / 信息架构 / 功能拆解 / 原型表达 / 方案迭代 / 跨职能协同 / 评审汇报</p>
-<p><strong>AI 与工具：</strong>Benchmark / Rubric / Prompt 辅助起草与审校；ChatGPT / Claude / Codex / Figma；Excel / ArcGIS / Photoshop / Illustrator / AutoCAD / SketchUp / 信息可视化</p>
-<p><strong>语言：</strong>英语 — 英文资料检索与阅读，持续承担英文 AI 数据任务（任务设计与评审）</p>
-<p>梁文馨 · AI 产品经理 / 产品策略 · 深圳</p></main></body></html>
+
+<section class="experience-item">
+  <div class="experience-head"><strong>AI 数据领域专家（项目制）</strong><strong>多家 AI 数据平台</strong><time>2026/07–至今</time></div>
+  <p><strong>评测体系产品化：</strong>面向城市规划、产业咨询等真实专业工作流设计 Benchmark 评测任务，制定 Rubric 评分标准、参考答案与边界案例判定规则，建立事实准确性、定量一致性、来源可追溯性等评估维度</p>
+  <p><strong>质量管控机制：</strong>主导任务包全流程交付，建立“AI 辅助生成+人工审校修订”双轨质量流程，把控专业场景下评测任务的严谨性与一致性</p>
+  <p><strong>能力边界沉淀：</strong>通过规模化评测实践沉淀大模型能力边界认知，为 AI 产品的能力设计与模型选型提供决策依据</p>
+</section>
+
+<section class="experience-item">
+  <div class="experience-head"><strong>主创规划师</strong><strong>广州山水比德设计股份有限公司</strong><time>2025/10–2026/04</time></div>
+  <p><strong>垂直场景产品策划：</strong>主导武汉江汉区历史街区城市更新项目的旅游产品策划与空间业态、功能策划，结合历史文化资源与空间条件完成文旅产品体系及落位研究，输出成果深度超出甲方需求</p>
+  <p><strong>用户研究与方向探索：</strong>参与城市更新与文旅新业务方向的市场、客户需求分析与竞品研究，输出产品方向建议支撑业务探索</p>
+  <p><strong>跨团队协同：</strong>参与多个文旅/乡村振兴项目的前期策划与规划条件落实，对接多专业团队推动成果交付</p>
+</section>
+
+<section class="experience-item">
+  <div class="experience-head"><strong>产业咨询顾问（项目负责人）</strong><strong>深圳市蕾奥规划设计咨询股份有限公司</strong><time>2023/10–2025/09</time></div>
+  <p><strong>问题诊断与驻场重整：</strong>坪山先进制造业园区项目（31.7 km²）中期成果未获主管部门认可，驻场 1 个月重新盘点企业资料、重建研究与汇报框架，对 102 家规上企业完成产业链环节定位，最终重新通过评审，成果用于后续招商与企业选址</p>
+  <p><strong>新能源场景产品化：</strong>作为项目负责人主导前湾新能源利用研究，调研资源与产业用能特征，定义分布式光伏、储能、氢能、园区微电网、虚拟电厂、综合能源站六类应用场景，明确建议企业参与光伏业务，为后续光储充项目（设计容量 5.8 MWp、目标年发电约 550 万 kWh）提供前期研究支撑</p>
+  <p><strong>用户数据洞察：</strong>在“微度假”旅游研究中基于大众点评、小红书等平台数据完成游客画像、消费趋势与竞品分析，提出旅游产品优化路径与产品组合策略</p>
+  <p><strong>赛道研究：</strong>独立撰写电子显示、3D 打印、激光加工三份行业研究报告，拆解竞争格局、企业图谱与发展建议</p>
+</section>
+
+<section class="experience-item">
+  <div class="experience-head"><strong>项目负责人</strong><strong>深圳市龙岗区规划国土发展研究中心</strong><time>2021/05–2023/05</time></div>
+  <p><strong>困境项目重建：</strong>中期接手技术路径不清、推进困难的产业空间保障行动计划，重新梳理研究逻辑与汇报框架，系统盘点 78.9 km² 产业用地，设计 6 类空间保障路径并形成项目库、年度实施计划与产值测算，成果经局长汇报用于区级决策</p>
+  <p><strong>需求管理与验收：</strong>主导项目任务书编制，将模糊业务需求转化为明确的目标、范围、成果与验收标准；负责多个中途接手项目的收尾、结款，均通过评审</p>
+  <p><strong>全周期项目管理：</strong>带领 2-3 人团队负责 6-7 个项目全流程，长期与政府主管部门紧密协作，完成需求澄清、驻场反馈与成果交付</p>
+</section>
+
+<section class="experience-item">
+  <div class="experience-head"><strong>城市规划师</strong><strong>深圳市城市规划设计研究院有限公司</strong><time>2018/07–2021/05</time></div>
+  <p><strong>研究成果产品化：</strong>作为主编之一完成《城市更新实施决策与指引》（中国建筑工业出版社，全书 9 章 349 页，本人负责政策、实施流程、历史街区等 4 章，覆盖 20 余个重点城市），并向中建八局技术管理层主讲汇报</p>
+  <p><strong>复杂项目协同：</strong>在十余人团队的兰州国土空间规划项目（合同额约 960 万元）中对接土地、市政、交通、产业、生态等多专业团队，负责成果整合并通过专家评审</p>
+</section>
+
+<h2>代表项目（独立从0到1）</h2>
+
+<section class="project-item">
+  <div class="project-head">Unfurl 英语阅读与词汇学习工具（AI 教育工具）</div>
+  <p><strong>问题定义：</strong>针对“泛读-背词-复习”路径割裂、无效重复背诵的痛点，借鉴运动训练“评估-训练-反馈-成长”逻辑重构学习闭环</p>
+  <p><strong>产品设计：</strong>打造“快速筛词-重点学习-语境理解-复习记录”流程，设计 200 个核心词汇分层体系、25 篇 A2-C1 分级阅读内容与回忆优先记忆卡模块</p>
+  <p><strong>交付与验证：</strong>独立完成原型到在线版本的全流程，基于本人真实学习数据持续迭代，验证产品学习路径的有效性</p>
+  <p>访问链接：<a href="https://wx6611.github.io/unfurl-demo/">wx6611.github.io/unfurl-demo/</a></p>
+</section>
+
+<section class="project-item">
+  <div class="project-head">芯片产业链全景平台（产业数据工具）</div>
+  <p><strong>问题定义：</strong>解决半导体产业链信息分散、静态研究报告无法交互式查询与动态更新的痛点，将专业产业研究成果产品化</p>
+  <p><strong>产品设计：</strong>设计“上游支撑-芯片设计-晶圆制造-封装测试-终端应用”五层信息架构，建立产业环节-细分领域-代表企业关联数据体系，实现节点点击、详情查询、关系探索等交互</p>
+  <p><strong>验证结果：</strong>可交互 Demo 已用于产业研究与企业信息梳理场景，验证产业数据产品化路径</p>
+  <p>访问链接：<a href="https://wx6611.github.io/chip-industry-map/demo.html">wx6611.github.io/chip-industry-map/demo.html</a></p>
+</section>
+
+<section class="project-item">
+  <div class="project-head">本地优先简历编辑器（AI 创作工具）</div>
+  <p><strong>需求洞察与定位：</strong>针对求职者简历版本碎片化、经历素材复用效率低的痛点，结合用户访谈与竞品分析，确立“素材模块化+多版本管理+岗位定向组装”的差异化定位</p>
+  <p><strong>产品设计：</strong>搭建本地优先架构，设计多简历管理、历史版本回溯、素材库复用、多格式导出（PDF/Word）、数据备份恢复等核心功能，输出完整 PRD 与信息架构</p>
+  <p><strong>AI 赋能与验证：</strong>基于 Claude、Codex 等 AI 工具完成需求拆解与前端实现并公开发布，通过真实求职场景完成多轮可用性验证与版本迭代</p>
+  <p>访问链接：<a href="https://wx6611.github.io/resume-editor/">wx6611.github.io/resume-editor/</a></p>
+</section>
+
+<h2>专业成果与出版物</h2>
+
+<section class="achievements">
+  <p><strong>出版物：</strong>《城市更新实施决策与指引》主编之一（中国建筑工业出版社）；《城乡规划编制技术手册（第二版）》主要编写人员</p>
+  <p><strong>竞赛奖项：</strong>广东省优秀城乡规划设计三等奖（2018）；松山湖南部国际竞赛中标（2017）；深圳光明科学城国家竞赛二等奖（2019）；太湖科学城、光明茅洲河国际方案咨询入围（2020/2023）</p>
+</section>
+
+<h2>教育经历</h2>
+
+<div class="education-row"><span>城市规划</span><span>硕士</span><strong>大连理工大学</strong><time>2015/09–2018/06</time></div>
+<div class="education-row"><span>城乡规划</span><span>学士</span><strong>湖南城市学院</strong><time>2010/09–2015/06</time></div>
+
+
+
+<h2>专业技能</h2>
+
+<div class="skills">
+<p><strong>AI产品能力：</strong>大模型评测体系设计、AI功能需求定义、RAG/Agent/Prompt场景设计、模型选型、信息架构、产品效果验证</p>
+<p><strong>产品与设计工具：</strong>Figma、Canva、Photoshop/Illustrator、Xmind、Claude/ChatGPT/Codex、ArcGIS、Excel/PPT、数据可视化</p>
+<p><strong>技术理解：</strong>大模型基本原理、API调用逻辑、结构化数据、本地优先架构；英语读写良好，可承担英文AI评测任务设计与审校</p>
+</div>
+</main></body></html>
